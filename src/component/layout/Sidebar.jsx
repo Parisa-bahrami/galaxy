@@ -5,6 +5,7 @@ import { IoEarth, IoListOutline, IoPlanetOutline } from "react-icons/io5";
 import { MdOutlineCircle } from "react-icons/md";
 import { Link, useLocation } from "react-router-dom";
 import LanguageSwitcher from "../general/LanguageSwither";
+import DarkModeSwitcher from "../general/DarkModeSwitcher";
 
 const Sidebar = () => {
   const location = useLocation();
@@ -135,8 +136,9 @@ const Sidebar = () => {
         </p>
       </button>
 
-
       <LanguageSwitcher />
+
+      <DarkModeSwitcher />
 
       {sidebarItems.map((item, index) => (
         <Link

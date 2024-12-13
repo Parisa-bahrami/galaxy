@@ -6,7 +6,7 @@ const PageHeader = ({ title, description, parallaxClass }) => {
       <section
         className={`parallax-mercury-1 h-[calc(100dvh-65px)] flex items-center justify-center rounded-3xl ${parallaxClass}`}
       >
-        <h1 className="text-6xl md:text-8xl font-bold text-white text-opacity-90 tracking-tight">
+        <h1 className="text-6xl md:text-8xl font-bold text-white text-opacity-90 tracking-tight select-none">
           {title}
         </h1>
       </section>
