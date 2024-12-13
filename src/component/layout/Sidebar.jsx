@@ -5,26 +5,21 @@ import { IoEarth, IoListOutline, IoPlanetOutline } from "react-icons/io5";
 import { MdOutlineCircle } from "react-icons/md";
 import { Link, useLocation } from "react-router-dom";
 
-
-
 const Sidebar = () => {
   const location = useLocation();
   const [show, setShow] = useState(false);
   const sidebarItems = [
     {
-      
       title: "Home",
       route: "/",
-     
+
       icon: (
-        <HiMiniHome 
+        <HiMiniHome
           className={`size-10 min-w-10 transition-all duration-300 ${
-          
-          location.pathname  === "/" ? "text-white" : "text-black "
+            location.pathname === "/" ? "text-white" : "text-black "
           }`}
         />
       ),
-     
     },
     {
       title: "Mercury",
@@ -123,8 +118,8 @@ const Sidebar = () => {
   ];
 
   return (
-    <div 
-      className={`relative z-50 hidden min-h-full md:flex flex-col justify-center gap-2 p-4 bg-white border-r border-r-slate-200 transition-all duration-300 ${
+    <div
+      className={`overflow-y-auto no-scrollbar relative z-50 hidden h-dvh md:flex flex-col justify-start gap-2 p-4 bg-white border-r border-r-slate-200 transition-all duration-300 ${
         show
           ? "w-[220px] items-start justify-center pl-4 p-6"
           : "w-20 min-w-20 items-center"

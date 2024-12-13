@@ -1,0 +1,40 @@
+.parallax-saturn-1,
+.parallax-saturn-2,
+.parallax-saturn-3,
+.parallax-saturn-4,
+.parallax-saturn-5,
+.parallax-saturn-6,
+.parallax-saturn-7 {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 20px;
+}
+
+.parallax-saturn-1 {
+  background-image: url("../../../image/saturn/saturn1.jpg");
+}
+
+.parallax-saturn-2 {
+  background-image: url("../../../image/saturn/saturn2.jpg");
+}
+
+.parallax-saturn-3 {
+  background-image: url("../../../image/saturn/saturn3.jpg");
+}
+
+.parallax-saturn-4 {
+  background-image: url("../../../image/saturn/saturn4.jpg");
+}
+
+.parallax-saturn-5 {
+  background-image: url("../../../image/saturn/saturn5.jpg");
+}
+
+.parallax-saturn-6 {
+  background-image: url("../../../image/saturn/saturn6.jpg");
+}
+
+.parallax-saturn-7 {
+  background-image: url("../../../image/saturn/saturn7.jpg");
+}

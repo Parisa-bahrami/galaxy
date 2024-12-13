@@ -1,0 +1,25 @@
+.parallax-venus-1,
+.parallax-venus-2,
+.parallax-venus-3,
+.parallax-venus-4 {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 20px;
+}
+
+.parallax-venus-1 {
+  background-image: url("../../../image/venus/venus1.jpg");
+}
+
+.parallax-venus-2 {
+  background-image: url("../../../image/venus/venus2.jpg");
+}
+
+.parallax-venus-3 {
+  background-image: url("../../../image/venus/venus3.webp");
+}
+
+.parallax-venus-4 {
+  background-image: url("../../../image/venus/venus4.webp");
+}

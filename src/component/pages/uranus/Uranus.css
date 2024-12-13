@@ -1,0 +1,40 @@
+.parallax-uranus-1,
+.parallax-uranus-2,
+.parallax-uranus-3,
+.parallax-uranus-4,
+.parallax-uranus-5,
+.parallax-uranus-6,
+.parallax-uranus-7 {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 20px;
+}
+
+.parallax-uranus-1 {
+  background-image: url("../../../image/uranus/uranus1.webp");
+}
+
+.parallax-uranus-2 {
+  background-image: url("../../../image/uranus/uranus2.jpg");
+}
+
+.parallax-uranus-3 {
+  background-image: url("../../../image/uranus/uranus3.jpg");
+}
+
+.parallax-uranus-4 {
+  background-image: url("../../../image/uranus/uranus4.webp");
+}
+
+.parallax-uranus-5 {
+  background-image: url("../../../image/uranus/uranus5.webp");
+}
+
+.parallax-uranus-6 {
+  background-image: url("../../../image/uranus/uranus6.jpg");
+}
+
+.parallax-uranus-7 {
+  background-image: url("../../../image/uranus/uranus7.jpg");
+}

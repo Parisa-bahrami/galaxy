@@ -1,0 +1,35 @@
+.parallax-mars-1,
+.parallax-mars-2,
+.parallax-mars-3,
+.parallax-mars-4,
+.parallax-mars-5,
+.parallax-mars-6 {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 20px;
+}
+
+.parallax-mars-1 {
+  background-image: url("../../../image/mars/mars1.webp");
+}
+
+.parallax-mars-2 {
+  background-image: url("../../../image/mars/mars2.jpg");
+}
+
+.parallax-mars-3 {
+  background-image: url("../../../image/mars/mars3.jpg");
+}
+
+.parallax-mars-4 {
+  background-image: url("../../../image/mars/mars4.jpg");
+}
+
+.parallax-mars-5 {
+  background-image: url("../../../image/mars/mars5.webp");
+}
+
+.parallax-mars-6 {
+  background-image: url("../../../image/mars/mars6.webp");
+}
