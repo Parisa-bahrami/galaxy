@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background: #f2f2f2;
+  }
+  h1 {
+    font-size: 120px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+  }
+  .parallax-neptune-1 {
+    background: url("../../image/neptune/neptune1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 20px;
+  }
+  .parallax-neptune-2 {
+    background: url("../../image/neptune/neptune2.webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 20px;
+  }
+  
+  .parallax-neptune-3 {
+    background: url("../../image/neptune/neptune3.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 20px;
+  }
+  
+  .parallax-neptune-4 {
+    background: url("../../image/neptune/neptune4.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 20px;
+  }
+
+  .parallax-neptune-5 {
+    background: url("../../image/neptune/neptune5.webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 20px;
+  }
+
+
+  
+  .parallax-neptune-inner1 {
+    padding: 16% 0;
+  }
+
+  .parallax-neptune-inner {
+    padding: 12% 0;
+  }
+
+  h2 {
+    font-size: 62px;
+    color: #555;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 20px 0 10px;
+  }
+  p {
+    font-size: 16px;
+    color: #555;
+    text-align: justify;
+    line-height: 30px;
+    margin: 0 50% 40px;
+  }
+  

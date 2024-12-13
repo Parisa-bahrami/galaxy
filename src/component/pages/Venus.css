@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+}
+h1 {
+  font-size: 120px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+}
+.parallax-venus-1 {
+  background: url("../../image/venus/venus1.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 20px;
+}
+.parallax-venus-2 {
+  background: url("../../image/venus/venus2.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 20px;
+}
+
+.parallax-venus-3 {
+  background: url("../../image/venus/venus3.webp") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 20px;
+}
+
+.parallax-venus-4 {
+  background: url("../../image/venus/venus4.webp") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 20px;
+}
+
+.parallax-venus-inner {
+  padding: 12% 0;
+}
+h2 {
+  font-size: 62px;
+  color: #555;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 20px 0 10px;
+}
+p {
+  font-size: 16px;
+  color: #555;
+  text-align: justify;
+  line-height: 30px;
+  margin: 0 50% 40px;
+}
+
+p:nth-of-type(2),
+p:nth-of-type(3) {
+  margin: 40px 50px;
+  padding: 20px 20px;
+}
