@@ -29,7 +29,8 @@ h1 {
 }
 
 .parallax-mercury-3 {
-  background: url("../../image/mercury/mercury2.jpg") no-repeat;
+
+  background: url("../../image/mercury/mercury3.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -37,7 +38,7 @@ h1 {
 }
 
 .parallax-mercury-4 {
-  background: url("../../image/mercury/mercury3.jpg") no-repeat;
+  background: url("../../image/mercury/mercury2.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

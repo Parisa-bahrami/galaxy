@@ -12,6 +12,8 @@ import { RouterProvider } from "react-router-dom";
 import Earth from "./component/pages/Earth";
 import Home from "./component/pages/Home";
 
+
+
 function App() {
   const router = createBrowserRouter([
     {
