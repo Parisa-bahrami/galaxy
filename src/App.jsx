@@ -1,18 +1,18 @@
+import { RouterProvider } from "react-router-dom";
 import { createBrowserRouter } from "react-router-dom";
+
 import "./App.css";
+
 import Layout from "./component/layout/Layout";
-import Mercury from "./component/pages/Mercury";
+import Mercury from "./component/pages/mercury/Mercury";
 import Venus from "./component/pages/Venus";
 import Mars from "./component/pages/Mars";
 import Uranus from "./component/pages/Uranus";
 import Neptune from "./component/pages/Neptune";
 import Jupiter from "./component/pages/Jupiter";
 import Saturn from "./component/pages/Saturn";
-import { RouterProvider } from "react-router-dom";
 import Earth from "./component/pages/Earth";
 import Home from "./component/pages/Home";
-
-
 
 function App() {
   const router = createBrowserRouter([

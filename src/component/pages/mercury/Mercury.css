@@ -1,0 +1,24 @@
+.parallax-mercury-1,
+.parallax-mercury-2,
+.parallax-mercury-3,
+.parallax-mercury-4 {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.parallax-mercury-1 {
+  background-image: url("../../../image/mercury/mercury4.jpg");
+}
+
+.parallax-mercury-2 {
+  background-image: url("../../../image/mercury/mercury1.jpg");
+}
+
+.parallax-mercury-3 {
+  background-image: url("../../../image/mercury/mercury3.jpg");
+}
+
+.parallax-mercury-4 {
+  background-image: url("../../../image/mercury/mercury2.jpg");
+}
