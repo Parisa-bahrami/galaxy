@@ -110,10 +110,12 @@
 
 .info-item h2 {
   font-size: 30px;
+  color: #ffffff;
 }
 
 .info-item h2:nth-child(2) {
   margin: 20px 0;
+  
 }
 
 .colors span {
@@ -130,32 +132,42 @@
 }
 
 .colors span:nth-child(1) {
-  background: #3674be;
+  background: #7e838a;
 }
 
 .colors span:nth-child(2) {
-  background: #d26181;
+  background: #a35a15;
 }
 
 .colors span:nth-child(3) {
-  background: #ceb13d;
+  background: #6d84eb;
 }
 
 .colors span:nth-child(4) {
-  background: #c6414c;
+  background: #9b200b;
 }
 
 .colors span:nth-child(5) {
-  background: #171f2b;
+  background: #b37c06;
 }
 
 .colors span:nth-child(6) {
-  background: #50aa61;
+  background: #ffbf0e;
 }
+
+.colors span:nth-child(7) {
+  background: #0effff;
+}
+
+.colors span:nth-child(8) {
+  background: #0e32ff;
+}
+
 
 .info-item p {
   font-size: 16px;
   margin: 20px 0 25px;
+  color: #ffffff;
 }
 
 .info-item .btn {

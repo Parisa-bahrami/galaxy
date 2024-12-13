@@ -1,12 +1,12 @@
 import "./Home.css";
-import Mercury2 from "../../image/png/Mercury2.png"
-import Venus2 from "../../image/png/Venus2.png"
-import Earth2 from "../../image/png/Earth2.png"
-import Mars2 from "../../image/png/Mars2.png"
-import Jupiter2 from "../../image/png/Jupiter2.png"
-import Saturn2 from "../../image/png/Saturn2.webp"
-import Uranus2 from "../../image/png/Uranus2.png"
-import Neptune2 from "../../image/png/Neptune2.png"
+import Mercury2 from "../../image/png/Mercury2.png";
+import Venus2 from "../../image/png/Venus2.png";
+import Earth2 from "../../image/png/Earth2.png";
+import Mars2 from "../../image/png/Mars2.png";
+import Jupiter2 from "../../image/png/Jupiter2.png";
+import Saturn2 from "../../image/png/Saturn2.webp";
+import Uranus2 from "../../image/png/Uranus2.png";
+import Neptune2 from "../../image/png/Neptune2.png";
 import { useEffect, useRef, useState } from "react";
 
 const Home = () => {
@@ -134,7 +134,7 @@ const Home = () => {
       <div className="info-box">
         <div className="info-item active">
           <h2>Mercury Dragon DuoalShock 4 Wireless</h2>
-          <h2>$50</h2>
+
           <div className="colors">
             <span className="active"></span>
             <span></span>
@@ -145,20 +145,14 @@ const Home = () => {
             <span></span>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sunt
-            veniam harum sed molestias quas rem atque iste molestiae, repellat
-            accusamus asperiores pariatur, voluptas voluptates earum culpa,
-            commodi voluptatibus aspernatur!
+            عطارد کوچک‌ترین و سریع‌ترین سیاره‌ی منظومه‌ی شمسی است. یکی از دلایل
+            ویژگی‌های منحصر‌به‌فرد این سیاره، فاصله‌ی نزدیکش به خورشید است.
           </p>
-          <a href="#" className="btn">
-            {" "}
-            buy Now
-          </a>
         </div>
 
         <div className="info-item">
           <h2>Venus Dragon DuoalShock 4 Wireless</h2>
-          <h2>$50</h2>
+
           <div className="colors">
             <span className="active"></span>
             <span></span>
@@ -169,20 +163,17 @@ const Home = () => {
             <span></span>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sunt
-            veniam harum sed molestias quas rem atque iste molestiae, repellat
-            accusamus asperiores pariatur, voluptas voluptates earum culpa,
-            commodi voluptatibus aspernatur!
+            زهره، ناهید یا ونوس دومین سیاره‌ی منظومه‌ی شمسی است. این سیاره،
+            ویژگی‌های مشترک متعددی با زمین دارد و به همین دلیل لقب خواهر زمین را
+            از آن خود کرده است. برای مثال، هر دو سیاره در محدوده‌ی سکونت‌پذیر
+            منظومه‌ی شمسی قرار دارند. علاوه‌براین، هردو، اجرام سنگی هستند و بخش
+            زیادی از آن‌ها از فلز و سیلیکات تشکیل شده است.
           </p>
-          <a href="#" className="btn">
-            {" "}
-            buy Now
-          </a>
         </div>
 
         <div className="info-item">
           <h2>Earth Dragon DuoalShock 4 Wireless</h2>
-          <h2>$50</h2>
+
           <div className="colors">
             <span className="active"></span>
             <span></span>
@@ -193,20 +184,15 @@ const Home = () => {
             <span></span>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sunt
-            veniam harum sed molestias quas rem atque iste molestiae, repellat
-            accusamus asperiores pariatur, voluptas voluptates earum culpa,
-            commodi voluptatibus aspernatur!
+            زَمین سومین سیارهٔ سامانه خورشیدی است که در فاصلهٔ ۱۴۹٬۶۰۰٬۰۰۰
+            کیلومتر از ستارهٔ خورشید قرار گرفته و از نظر بزرگی پنجمین سیاره از
+            هشت سیارهٔ منظومهٔ شمسی است
           </p>
-          <a href="#" className="btn">
-            {" "}
-            buy Now
-          </a>
         </div>
 
         <div className="info-item">
           <h2>Mars Dragon DuoalShock 4 Wireless</h2>
-          <h2>$50</h2>
+
           <div className="colors">
             <span className="active"></span>
             <span></span>
@@ -217,20 +203,17 @@ const Home = () => {
             <span></span>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sunt
-            veniam harum sed molestias quas rem atque iste molestiae, repellat
-            accusamus asperiores pariatur, voluptas voluptates earum culpa,
-            commodi voluptatibus aspernatur!
+            امروزه می‌توان گفت مریخ، به لطف کاوش‌ها و اکتشافات متعدد یکی از
+            آشناترین نقاط منظومه شمسی است. مریخ چهارمین سیاره منظومه شمسی
+            (براساس فاصله از خورشید) و دومین سیاره کوچک پس از عطارد است. نام
+            مریخ یا مارس با الهام از خدای جنگ رومی انتخاب شده است و اغلب با لقب
+            سیاره سرخ آن را می‌شناسند.
           </p>
-          <a href="#" className="btn">
-            {" "}
-            buy Now
-          </a>
         </div>
 
         <div className="info-item">
           <h2>Jupiter Dragon DuoalShock 4 Wireless</h2>
-          <h2>$50</h2>
+
           <div className="colors">
             <span className="active"></span>
             <span></span>
@@ -241,20 +224,15 @@ const Home = () => {
             <span></span>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sunt
-            veniam harum sed molestias quas rem atque iste molestiae, repellat
-            accusamus asperiores pariatur, voluptas voluptates earum culpa,
-            commodi voluptatibus aspernatur!
+            مُشتَری یا هُرمُز(که به نام‌های بِرجیس، اورمزد، زاوش، ژوپیتر نیز
+            شناخته می‌شود)، بزرگ‌ترین سیاره در منظومهٔ شمسی است. این سیارهٔ غول
+            گازی با جرم یک‌هزارم خورشید است،
           </p>
-          <a href="#" className="btn">
-            {" "}
-            buy Now
-          </a>
         </div>
 
         <div className="info-item">
           <h2>Saturn Dragon DuoalShock 4 Wireless</h2>
-          <h2>$50</h2>
+
           <div className="colors">
             <span className="active"></span>
             <span></span>
@@ -265,20 +243,14 @@ const Home = () => {
             <span></span>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sunt
-            veniam harum sed molestias quas rem atque iste molestiae, repellat
-            accusamus asperiores pariatur, voluptas voluptates earum culpa,
-            commodi voluptatibus aspernatur!
+            زحل یا کیوان (به انگلیسی :saturn)، بعد از سیارهٔ مشتری، دومین سیارهٔ
+            بزرگ منظومه شمسی و ششمین سیارهٔ نزدیک به خورشید است.
           </p>
-          <a href="#" className="btn">
-            {" "}
-            buy Now
-          </a>
         </div>
 
         <div className="info-item">
           <h2>Uranus Dragon DuoalShock 4 Wireless</h2>
-          <h2>$50</h2>
+
           <div className="colors">
             <span className="active"></span>
             <span></span>
@@ -289,20 +261,14 @@ const Home = () => {
             <span></span>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sunt
-            veniam harum sed molestias quas rem atque iste molestiae, repellat
-            accusamus asperiores pariatur, voluptas voluptates earum culpa,
-            commodi voluptatibus aspernatur!
+            اورانوس هفتمین سیاره از نظر نزدیکی به خورشید و سومین سیاره از نظر
+            اندازه و چهارمین سیاره از نظر جرم در سامانه خورشیدی است. اورانوس هر
+            ۸۴ سال و روز یکبار به دور خورشید می‌گردد.
           </p>
-          <a href="#" className="btn">
-            {" "}
-            buy Now
-          </a>
         </div>
 
         <div className="info-item">
           <h2>Neptune Dragon DuoalShock 4 Wireless</h2>
-          <h2>$50</h2>
           <div className="colors">
             <span className="active"></span>
             <span></span>
@@ -313,15 +279,11 @@ const Home = () => {
             <span></span>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sunt
-            veniam harum sed molestias quas rem atque iste molestiae, repellat
-            accusamus asperiores pariatur, voluptas voluptates earum culpa,
-            commodi voluptatibus aspernatur!
+            نپتون (به انگلیسی: Neptune) هشتمین سیارهٔ منظومه شمسی (و با در نظر
+            نگرفتن پلوتو که یک سیاره کوتوله است) دورترین سیاره شناخته شده
+            می‌باشد. پس از مشتری، زحل و اورانوس، نپتون بزرگ‌ترین سیاره از لحاظ
+            اندازه می‌باشد.
           </p>
-          <a href="#" className="btn">
-            {" "}
-            buy Now
-          </a>
         </div>
       </div>
 
