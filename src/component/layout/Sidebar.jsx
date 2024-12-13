@@ -4,6 +4,7 @@ import { HiMiniHome } from "react-icons/hi2";
 import { IoEarth, IoListOutline, IoPlanetOutline } from "react-icons/io5";
 import { MdOutlineCircle } from "react-icons/md";
 import { Link, useLocation } from "react-router-dom";
+import LanguageSwitcher from "../general/LanguageSwither";
 
 const Sidebar = () => {
   const location = useLocation();
@@ -133,6 +134,9 @@ const Sidebar = () => {
           <IoListOutline />
         </p>
       </button>
+
+
+      <LanguageSwitcher />
 
       {sidebarItems.map((item, index) => (
         <Link
