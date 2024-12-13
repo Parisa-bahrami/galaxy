@@ -7,7 +7,7 @@ const LanguageSwitcher = () => {
   return (
     <button
       onClick={toggleLanguage}
-      className="px-4 py-2 bg-blue-500 text-white rounded-md"
+      className="p-2 bg-transparent text-slate-950 dark:text-white rounded-md"
     >
       {language === "fa" ? "EN" : "FA"}
     </button>
