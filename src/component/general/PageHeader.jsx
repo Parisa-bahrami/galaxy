@@ -11,7 +11,7 @@ const PageHeader = ({ title, description, parallaxClass }) => {
         </h1>
       </section>
 
-      <p className="w-full text-base text-gray-600 text-justify leading-relaxed py-20">
+      <p className="w-full text-base text-gray-600 dark:text-slate-50 text-justify leading-relaxed py-20">
         {description}
       </p>
     </div>
