@@ -1,23 +1,40 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { Outlet } from "react-router";
+import { useLocation } from "react-router-dom";
 
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 import ButtonNavbar from "./ButtonNavbar";
 import ScrollToTop from "./ScrollToTop";
+import useLayoutStore from "../../stores/layoutStore";
+import useAbsorbButton from "../../hooks/useAbsorbButton";
 
 const Layout = () => {
   const scrollContainerRef = useRef(null);
+  const location = useLocation();
+
+  const setScrollContainer = useLayoutStore(
+    (state) => state.setScrollContainer
+  );
+
+  const isHome = location.pathname === "/";
+
+  useEffect(() => {
+    setScrollContainer(scrollContainerRef);
+  }, []);
+
+  useAbsorbButton();
 
   return (
     <div className="min-h-dvh w-full max-w-full flex items-stretch justify-start bg-slate-50 dark:bg-slate-900 overflow-hidden transition-colors duration-300">
       <ScrollToTop containerRef={scrollContainerRef} />
 
       {/* Sidebar */}
-      <Sidebar />
+      {!isHome ? <Sidebar /> : null}
 
       <div className="w-full flex flex-col items-start justify-start overflow-hidden">
         {/* Header */}
+        {/* {!isHome ? <Header /> : null} */}
         <Header />
 
         <div
@@ -28,7 +45,7 @@ const Layout = () => {
         </div>
 
         {/* ButtonNavbar */}
-        <ButtonNavbar />
+        {!isHome ? <ButtonNavbar /> : null}
       </div>
     </div>
   );

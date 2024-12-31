@@ -1,12 +1,18 @@
 import { Link, useLocation } from "react-router-dom";
 import { MdOutlineCircle } from "react-icons/md";
-import { IoEarth} from "react-icons/io5";
+import { IoEarth } from "react-icons/io5";
 import { IoPlanetOutline } from "react-icons/io5";
 import { GiJupiter } from "react-icons/gi";
 import { HiMiniHome } from "react-icons/hi2";
+import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
+import { useState } from "react";
+
+import { BsThreeDots } from "react-icons/bs";
+
 const ButtonNavbar = () => {
   const location = useLocation();
 
+  const [isPopoverOpen, setIsPopoverOpen] = useState(false);
 
   const sidebarItems = [
     {
@@ -117,29 +123,47 @@ const ButtonNavbar = () => {
   ];
 
   return (
-  
-
-      <div className="md:hidden h-16 fixed bottom-0 inset-x-0 flex items-center justify-around bg-white border-t border-t-slate-200">
-        {sidebarItems.map((item, index) => (
-          <Link
-            key={index}
-            to={item.route}
-            className={`size-14 flex items-center justify-center p-2 rounded-lg transition-all duration-300 ${
-              location.pathname === item.route
-                ? "bg-blue-500"
-                : "hover:bg-slate-50 "
-            }`}
-          >
-            {/* <item.icon
+    <div className="md:hidden h-16 fixed bottom-0 inset-x-0 flex items-center justify-around bg-white border-t border-t-slate-200">
+      {sidebarItems.slice(0, 5).map((item, index) => (
+        <Link
+          key={index}
+          to={item.route}
+          className={`size-14 flex items-center justify-center p-2 rounded-lg transition-all duration-300 ${
+            location.pathname === item.route
+              ? "bg-blue-500"
+              : "hover:bg-slate-50 "
+          }`}
+        >
+          {/* <item.icon
               className={`text-3xl transition-all duration-300 ${
                 location.pathname === item.route ? "text-white" : "text-black"
               }`}
             /> */}
-            {item?.icon}
-          </Link>
-        ))}
-      </div>
-  
+          {item?.icon}
+        </Link>
+      ))}
+
+      <Popover open={isPopoverOpen} onOpenChange={setIsPopoverOpen}>
+        <PopoverTrigger className="text-lg transition-all duration-300 focus:border-none focus:outline-none border-none ring-0 "><BsThreeDots /></PopoverTrigger>
+
+        <PopoverContent className="w-auto p-2" sideOffset={14}>
+          {sidebarItems.slice(5).map((item, index) => (
+            <Link
+              key={index}
+              to={item.route}
+              onClick={() => setIsPopoverOpen(false)}
+              className={`size-14 flex items-center justify-center p-2 rounded-lg transition-all duration-300 ${
+                location.pathname === item.route
+                  ? "bg-blue-500"
+                  : "hover:bg-slate-50 "
+              }`}
+            >
+              {item?.icon}
+            </Link>
+          ))}
+        </PopoverContent>
+      </Popover>
+    </div>
   );
 };
 

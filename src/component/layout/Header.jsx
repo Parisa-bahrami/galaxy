@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <div className="relative w-full h-16 flex items-center justify-center bg-white dark:bg-slate-800 transition-colors duration-300">
+    <div className="relative z-100  w-full h-16 flex items-center justify-center bg-white dark:bg-slate-800 transition-colors duration-300">
       <p className="text-2xl font-bold capitalize text-slate-950 dark:text-slate-50">
         {prettifyTitle(location.pathname) || "Home"}
       </p>

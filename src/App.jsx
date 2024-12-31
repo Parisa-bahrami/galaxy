@@ -12,7 +12,7 @@ import Neptune from "./component/pages/neptune/Neptune";
 import Jupiter from "./component/pages/jupiter/Jupiter";
 import Saturn from "./component/pages/saturn/Saturn";
 import Earth from "./component/pages/earth/Earth";
-import Home from "./component/pages/Home";
+import Home from "./component/pages/home/Home";
 
 function App() {
   const router = createBrowserRouter([
