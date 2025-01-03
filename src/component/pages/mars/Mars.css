@@ -3,6 +3,7 @@
 .parallax-mars-3,
 .parallax-mars-4,
 .parallax-mars-5,
+.parallax-mars-7,
 .parallax-mars-6 {
   background-size: cover;
   background-position: center;
@@ -28,6 +29,10 @@
 
 .parallax-mars-5 {
   background-image: url("../../../image/mars/mars5.webp");
+}
+
+.parallax-mars-7 {
+  background-image: url("../../../image/mars/mars7.webp");
 }
 
 .parallax-mars-6 {

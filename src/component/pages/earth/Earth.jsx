@@ -52,6 +52,12 @@ const Earth = () => {
         description={earth?.atmosphereDescription}
       />
 
+    <SectionParallaxImage parallaxClass={"parallax-earth-7"} />
+
+<SectionInfo
+  title={earth?.moonsTitle}
+  description={earth?.moonsDescription}
+/>
       <SectionParallaxImage parallaxClass={"parallax-earth-6"} />
 
       <SectionInfo

@@ -50,6 +50,12 @@ const Mars = () => {
         title={mars?.atmosphereTitle}
         description={mars?.atmosphereDescription}
       />
+    <SectionParallaxImage parallaxClass={"parallax-mars-7"} />
+
+<SectionInfo
+  title={mars?.moonsTitle}
+  description={mars?.moonsDescription}
+/>
 
       <SectionParallaxImage parallaxClass={"parallax-mars-6"} />
 

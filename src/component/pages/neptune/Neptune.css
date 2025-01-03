@@ -2,6 +2,7 @@
 .parallax-neptune-2,
 .parallax-neptune-3,
 .parallax-neptune-4,
+.parallax-neptune-6,
 .parallax-neptune-5 {
   background-size: cover;
   background-position: center;
@@ -27,4 +28,7 @@
 
 .parallax-neptune-5 {
   background-image: url("../../../image/neptune/neptune5.webp");
+}
+.parallax-neptune-6 {
+  background-image: url("../../../image/neptune/neptune6.jpg");
 }

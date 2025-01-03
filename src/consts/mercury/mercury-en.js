@@ -10,7 +10,8 @@ export const mercury = {
     featuresTitle: "Features of Mercury",
     featuresDescription: `
       One Mercury year is equal to 88 Earth days, and one Mercury day is 59 Earth days. This planet has a slow rotation around its axis but has the highest orbital speed around the Sun. The surface of Mercury resembles the surface of Earth's Moon due to asteroid bombardment in the early formation of the solar system, making it full of impact craters.
-    `,
+    Mercury has no moons due to its proximity to the Sun and the Sun's strong gravitational pull.
+      `,
     appearanceTitle: "Appearance of Mercury",
     appearanceDescription: `
       Much of Mercury's surface appears grayish-brown. Additionally, bright streaks called "crater rays" are visible on the surface of this planet. These streaks formed during asteroid or comet impacts on Mercury's surface.

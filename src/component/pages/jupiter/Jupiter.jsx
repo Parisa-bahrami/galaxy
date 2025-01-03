@@ -20,6 +20,7 @@ const Jupiter = () => {
       dir={language === "fa" ? "rtl" : "ltr"}
     >
       <PageHeader
+      data={jupiter?.data}
         title={jupiter?.title}
         description={jupiter?.description}
         parallaxClass={"parallax-jupiter-1"}
@@ -46,14 +47,14 @@ const Jupiter = () => {
         description={jupiter?.appearanceDescription}
       />
 
-      <SectionParallaxImage parallaxClass={"parallax-jupiter-5"} />
+      <SectionParallaxImage parallaxClass={"parallax-jupiter-6"} />
 
       <SectionInfo
         title={jupiter?.atmosphereTitle}
         description={jupiter?.atmosphereDescription}
       />
 
-      <SectionParallaxImage parallaxClass={"parallax-jupiter-6"} />
+      <SectionParallaxImage parallaxClass={"parallax-jupiter-5"} />
 
       <SectionInfo
         title={jupiter?.moonsTitle}

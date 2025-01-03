@@ -123,15 +123,15 @@ const ButtonNavbar = () => {
   ];
 
   return (
-    <div className="md:hidden h-16 fixed bottom-0 inset-x-0 flex items-center justify-around bg-white border-t border-t-slate-200">
+    <div className="md:hidden h-16 fixed bottom-0 inset-x-0 flex items-center justify-around bg-white dark:bg-slate-800 border-t border-t-slate-200">
       {sidebarItems.slice(0, 5).map((item, index) => (
         <Link
           key={index}
           to={item.route}
           className={`size-14 flex items-center justify-center p-2 rounded-lg transition-all duration-300 ${
             location.pathname === item.route
-              ? "bg-blue-500"
-              : "hover:bg-slate-50 "
+              ? "dark:bg-slate-600 bg-blue-500"
+              : "hover:dark:bg-slate-500 hover:bg-slate-50 "
           }`}
         >
           {/* <item.icon
@@ -144,18 +144,23 @@ const ButtonNavbar = () => {
       ))}
 
       <Popover open={isPopoverOpen} onOpenChange={setIsPopoverOpen}>
-        <PopoverTrigger className="text-lg transition-all duration-300 focus:border-none focus:outline-none border-none ring-0 "><BsThreeDots /></PopoverTrigger>
+        <PopoverTrigger className="text-lg transition-all duration-300 focus:border-none focus:outline-none border-none dark:bg-slate-800 dark:text-slate-400 ring-0 ">
+          <BsThreeDots />
+        </PopoverTrigger>
 
-        <PopoverContent className="w-auto p-2" sideOffset={14}>
+        <PopoverContent
+          className="w-auto p-2 dark:bg-slate-600 "
+          sideOffset={14}
+        >
           {sidebarItems.slice(5).map((item, index) => (
             <Link
               key={index}
               to={item.route}
               onClick={() => setIsPopoverOpen(false)}
-              className={`size-14 flex items-center justify-center p-2 rounded-lg transition-all duration-300 ${
+              className={`size-14  flex items-center justify-center p-2 rounded-lg transition-all  duration-300 ${
                 location.pathname === item.route
-                  ? "bg-blue-500"
-                  : "hover:bg-slate-50 "
+                  ? "dark:bg-slate-600 bg-blue-500"
+                  : "hover:dark:bg-slate-500 hover:bg-slate-50 "
               }`}
             >
               {item?.icon}

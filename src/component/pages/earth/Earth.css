@@ -3,6 +3,7 @@
 .parallax-earth-3,
 .parallax-earth-4,
 .parallax-earth-5,
+.parallax-earth-7,
 .parallax-earth-6 {
   background-size: cover;
   background-position: center;
@@ -19,7 +20,7 @@
 }
 
 .parallax-earth-3 {
-  background-image: url("../../../image/earth/earth3.jpg");
+  background-image: url("../../../image/earth/earth3.jpeg");
 }
 
 .parallax-earth-4 {
@@ -30,6 +31,10 @@
   background-image: url("../../../image/earth/earth5.jpg");
 }
 
+.parallax-earth-7 {
+  background-image: url("../../../image/earth/earth7.jpg");
+}
 .parallax-earth-6 {
   background-image: url("../../../image/earth/earth6.jpg");
 }
+
