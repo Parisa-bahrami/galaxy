@@ -1,5 +1,3 @@
-
-
 import EarthScreen from "../../home/planets-screens/EarthScreen";
 import JupiterScreen from "../../home/planets-screens/JupiterScreen";
 import MarsScreen from "../../home/planets-screens/MarsScreen";
@@ -12,7 +10,6 @@ import VenusScreen from "../../home/planets-screens/VenusScreen";
 const Home = () => {
   return (
     <div className="w-full overflow-x-hidden px-6">
-      {/* <PlanetSection /> */}
       <MercuryScreen />
       <VenusScreen />
       <EarthScreen />

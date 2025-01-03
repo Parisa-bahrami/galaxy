@@ -1,17 +1,16 @@
 import useTranslations from "../../../hooks/useTranslation";
-import PlanetSection from "../../pages/home/PlanetSection";
-
+import PlanetSection from "../PlanetSection";
 
 const MarsScreen = () => {
   const { data } = useTranslations("home");
   return (
-  <PlanetSection
-  description={data?.marsDescription}
-  title={data?.marsTitle}
-  link={"/mars"}
-  // image={image}
-/>
- )
+    <PlanetSection
+      name="mars"
+      description={data?.marsDescription}
+      title={data?.marsTitle}
+      link={"/mars"}
+    />
+  );
 };
 
 export default MarsScreen;

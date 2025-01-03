@@ -5,15 +5,16 @@ import { useRef, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import { motion, useScroll, useTransform, useAnimation } from "framer-motion";
 
-import useLayoutStore from "../../../stores/layoutStore";
-import { cn } from "../../../utils/cn";
-import { Button } from "../../ui/button";
-import useLanguageStore from "../../../stores/languageStore";
+import useLayoutStore from "../../stores/layoutStore";
+import { cn } from "../../utils/cn";
+import { Button } from "../ui/button";
+import useLanguageStore from "../../stores/languageStore";
+import Planet from "./planet/Planet";
 
 const PlanetSection = ({
+  name,
   description,
   title,
-  image,
   link,
   slideFromLeft = false,
 }) => {
@@ -77,7 +78,7 @@ const PlanetSection = ({
     <motion.div
       ref={elementRef}
       style={{ opacity: pageOpacityByScroll }}
-      className="min-h-screen w-full grid grid-cols-2 items-center justify-center p-8"
+      className="min-h-screen w-full grid grid-cols-1 md:grid-cols-2 items-center justify-center p-8"
     >
       <motion.div
         ref={ref}
@@ -85,8 +86,8 @@ const PlanetSection = ({
         animate={textControls}
         variants={textVariants}
         className={cn(
-          "w-full flex flex-col items-start justify-center gap-4",
-          slideFromLeft ? "order-2" : "order-1"
+          "order-2 w-full flex flex-col items-start justify-center gap-4",
+          slideFromLeft ? "md:order-2" : "md:order-1"
         )}
         dir={isEngish ? "ltr" : "rtl"}
       >
@@ -108,24 +109,18 @@ const PlanetSection = ({
       </motion.div>
 
       <div
-        className={`w-full flex items-center justify-center ${
-          slideFromLeft ? "order-1" : "order-2"
-        }`}
+        className={cn(
+          "order-1 w-full flex items-center justify-center",
+          slideFromLeft ? "md:order-1" : "md:order-2"
+        )}
       >
         <motion.div
-          className="size-36 rounded-full bg-black"
-          style={{ translateX: planetTranslateX, opacity: opacityByScroll }}
-        ></motion.div>
-      </div>
-
-      {/* <div className="w-full flex items-center justify-center">
-        <motion.div
-          className="size-36 rounded-full bg-black"
+          className="size-96 rounded-full"
           style={{ translateX: planetTranslateX, opacity: opacityByScroll }}
         >
-          <img src={image} alt="example" />
+          {!!name ? <Planet name={name} /> : null}
         </motion.div>
-      </div> */}
+      </div>
     </motion.div>
   );
 };

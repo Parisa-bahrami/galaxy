@@ -1,10 +1,11 @@
 import useTranslations from "../../../hooks/useTranslation";
-import PlanetSection from "../../pages/home/PlanetSection";
+import PlanetSection from "../PlanetSection";
 
 const NeptuneScreen = () => {
   const { data } = useTranslations("home");
   return (
     <PlanetSection
+      name="neptune"
       description={data?.neptuneDescription}
       title={data?.neptuneTitle}
       link={"/neptune"}
