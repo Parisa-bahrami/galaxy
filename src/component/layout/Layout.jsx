@@ -4,10 +4,11 @@ import { useLocation } from "react-router-dom";
 
 import Header from "./Header";
 import Sidebar from "./Sidebar";
-import ButtonNavbar from "./ButtonNavbar";
+import BottomNavbar from "./BottomNavbar";
 import ScrollToTop from "./ScrollToTop";
 import useLayoutStore from "../../stores/layoutStore";
 import useAbsorbButton from "../../hooks/useAbsorbButton";
+import { cn } from "../../utils/cn";
 
 const Layout = () => {
   const scrollContainerRef = useRef(null);
@@ -39,13 +40,16 @@ const Layout = () => {
 
         <div
           ref={scrollContainerRef}
-          className="w-full max-h-[calc(100dvh-128px)] md:max-h-dvh overflow-y-auto md:pb-10"
+          className={cn(
+            "w-full max-h-[calc(100dvh-128px)] md:max-h-dvh overflow-y-auto md:pb-10",
+            isHome && "max-h-[calc(100dvh-65px)]"
+          )}
         >
           <Outlet />
         </div>
 
-        {/* ButtonNavbar */}
-        {!isHome ? <ButtonNavbar /> : null}
+        {/* BottomNavbar */}
+        {!isHome ? <BottomNavbar /> : null}
       </div>
     </div>
   );

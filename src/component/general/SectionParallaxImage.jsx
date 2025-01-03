@@ -3,11 +3,7 @@
 const SectionParallaxImage = ({ parallaxClass }) => {
   return (
     <section className={` rounded-2xl ${parallaxClass}`}>
-      <div className="parallax-inner">
-        <h1 className="text-8xl text-center text-white text-opacity-40">
-          scroll
-        </h1>
-      </div>
+      <div className="parallax-inner h-48 md:h-72 lg:h-96"></div>
     </section>
   );
 };
