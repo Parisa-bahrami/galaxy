@@ -53,6 +53,13 @@ const Jupiter = () => {
         title={jupiter?.atmosphereTitle}
         description={jupiter?.atmosphereDescription}
       />
+      
+      <SectionParallaxImage parallaxClass={"parallax-jupiter-8"} />
+
+      <SectionInfo
+        title={jupiter?.ringsTitle}
+        description={jupiter?.ringsDescription}
+      />
 
       <SectionParallaxImage parallaxClass={"parallax-jupiter-5"} />
 

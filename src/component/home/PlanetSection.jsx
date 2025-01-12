@@ -10,7 +10,6 @@ import { cn } from "../../utils/cn";
 import { Button } from "../ui/button";
 import useLanguageStore from "../../stores/languageStore";
 import Planet from "./planet/Planet";
-
 const PlanetSection = ({
   name,
   description,
@@ -75,11 +74,13 @@ const PlanetSection = ({
   };
 
   return (
+
     <motion.div
       ref={elementRef}
       style={{ opacity: pageOpacityByScroll }}
       className="min-h-screen w-full grid grid-cols-1 md:grid-cols-2 items-center justify-center p-8"
     >
+
       <motion.div
         ref={ref}
         initial="hidden"
@@ -118,10 +119,12 @@ const PlanetSection = ({
           className="size-96 rounded-full"
           style={{ translateX: planetTranslateX, opacity: opacityByScroll }}
         >
-          {!!name ? <Planet name={name} /> : null}
+          {name ? <Planet name={name} /> : null}
+
         </motion.div>
       </div>
     </motion.div>
+   
   );
 };
 

@@ -50,12 +50,18 @@ const Neptune = () => {
         title={neptune?.atmosphereTitle}
         description={neptune?.atmosphereDescription}
       />
-          <SectionParallaxImage parallaxClass={"parallax-neptune-6"} />
+      <SectionParallaxImage parallaxClass={"parallax-neptune-7"} />
 
-<SectionInfo
-  title={neptune?.moonsTitle}
-  description={neptune?.moonsDescription}
-/>
+      <SectionInfo
+        title={neptune?.ringsTitle}
+        description={neptune?.ringsDescription}
+      />
+      <SectionParallaxImage parallaxClass={"parallax-neptune-6"} />
+      
+      <SectionInfo
+        title={neptune?.moonsTitle}
+        description={neptune?.moonsDescription}
+      />
     </section>
   );
 };

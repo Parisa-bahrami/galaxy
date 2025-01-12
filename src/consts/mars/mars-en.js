@@ -21,10 +21,10 @@ export const mars = {
     `,
     moonsTitle: "Moons of Mars",
     moonsDescription: `
-Number of moons: 2
+Mars has 2 moons
 Phobos and Deimos are two small, irregular moons of Mars, likely captured asteroids.
     `,
-    conclusionTitle: "Conclusion",
+    conclusionTitle: "Physical characteristics of Mars and Earth",
     conclusionDescription: `
 Mars is less dense than Earth, with a volume of 15% and a mass of 11% that of Earth. Its surface area is slightly less than the total land area of Earth. Mars is larger and denser than Mercury, resulting in stronger surface gravity. In terms of volume and mass, Mars is the eighth-largest object in the solar system. Its size, mass, and surface gravity are intermediate between Earth and the Moon: Earth's Moon is half the size of Mars, Earth is twice the size of Mars, and Earth's mass is ten times that of Mars. 
     `,

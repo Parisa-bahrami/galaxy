@@ -3,6 +3,7 @@
 .parallax-neptune-3,
 .parallax-neptune-4,
 .parallax-neptune-6,
+.parallax-neptune-7,
 .parallax-neptune-5 {
   background-size: cover;
   background-position: center;
@@ -15,11 +16,11 @@
 }
 
 .parallax-neptune-2 {
-  background-image: url("../../../image/neptune/neptune2.webp");
+  background-image: url("../../../image/neptune/neptune3.jpg");
 }
 
 .parallax-neptune-3 {
-  background-image: url("../../../image/neptune/neptune3.jpg");
+  background-image: url("../../../image/neptune/neptune2.webp");
 }
 
 .parallax-neptune-4 {
@@ -28,6 +29,9 @@
 
 .parallax-neptune-5 {
   background-image: url("../../../image/neptune/neptune5.webp");
+}
+.parallax-neptune-7 {
+  background-image: url("../../../image/neptune/neptune7.jpg");
 }
 .parallax-neptune-6 {
   background-image: url("../../../image/neptune/neptune6.jpg");

@@ -19,12 +19,17 @@ Jupiter's most prominent feature is the Great Red Spot, a massive anticyclonic s
   atmosphereDescription: `
       Jupiter's atmosphere is composed of hydrogen and helium. The planet has large storms known as the Great Red Spot.
     `,
+  ringsTitle: "Rings of Jupiter",
+  ringsDescription: `
+
+Jupiter's rings are very faint and thin, making them difficult to observe. They are primarily composed of fine dust and rock particles, likely formed by meteoroid collisions with Jupiter's small moons. Jupiter's rings consist of three main components: the halo ring, the main ring, and the gossamer ring. These rings were first discovered in 1979 by the Voyager 1 spacecraft and have been studied ever since.
+    `,
   moonsTitle: "Moons of Jupiter",
   moonsDescription: `
       Jupiter has 95 moons, some of which are very large. Famous moons of Jupiter include Europa, Ganymede, and Callisto.
 Jupiter has the most moons in the solar system. Its four largest moons (Ganymede, Callisto, Io, and Europa) are known as the Galilean moons. Ganymede is the largest moon in the solar system.
       `,
-  conclusionTitle: "Conclusion",
+  conclusionTitle: "Comparison of the mass and density of Jupiter",
   conclusionDescription: `
 Jupiter's mass is 2.5 times the combined mass of all other planets in the solar system. The barycenter of Jupiter and the Sun lies at a distance of 1.068 times the Sun's radius from the Sun's center. Jupiter's volume is 1,321 times that of Earth, but its mass is only 318.5 times Earth's, indicating a lower density compared to Earth. Jupiter's radius is about one-tenth of the Sun's, and its mass is 0.001 times the Sun's, making their densities similar.
   `,

@@ -4,6 +4,7 @@
 .parallax-jupiter-4,
 .parallax-jupiter-5,
 .parallax-jupiter-6,
+.parallax-jupiter-8,
 .parallax-jupiter-7 {
   background-size: cover;
   background-position: center;
@@ -16,11 +17,11 @@
 }
 
 .parallax-jupiter-2 {
-  background-image: url("../../../image/jupiter/jupiter2.webp");
+  background-image: url("../../../image/jupiter/jupiter3.webp");
 }
 
 .parallax-jupiter-3 {
-  background-image: url("../../../image/jupiter/jupiter3.webp");
+  background-image: url("../../../image/jupiter/jupiter2.webp");
 }
 
 .parallax-jupiter-4 {
@@ -30,11 +31,15 @@
 .parallax-jupiter-5 {
   background-image: url("../../../image/jupiter/jupiter5.webp");
 }
+.parallax-jupiter-8 {
+  background-image: url("../../../image/jupiter/jupiter7.webp");
+}
+
 
 .parallax-jupiter-6 {
   background-image: url("../../../image/jupiter/jupiter6.jpg");
 }
 
 .parallax-jupiter-7 {
-  background-image: url("../../../image/jupiter/jupiter7.webp");
+  background-image: url("../../../image/jupiter/jupiter8.webp");
 }

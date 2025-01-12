@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useRef, Suspense } from "react";
 import * as THREE from "three";
 import { useTexture } from "@react-three/drei";
@@ -29,6 +30,7 @@ const PlanetBase = ({ name }) => {
   const scale = name === "saturn" ? [68, 68, 68] : [100, 100, 100];
 
   return (
+    
     <group ref={planetRef}>
       {/* Planet mesh */}
       <mesh geometry={sphereGeometry} scale={scale}>
@@ -65,6 +67,7 @@ const Planet = ({ name }) => {
         <PlanetBase name={name} />
       </Suspense>
     </Canvas>
+ 
   );
 };
 

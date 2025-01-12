@@ -35,7 +35,6 @@ const Layout = () => {
 
       <div className="w-full flex flex-col items-start justify-start overflow-hidden">
         {/* Header */}
-        {/* {!isHome ? <Header /> : null} */}
         <Header />
 
         <div

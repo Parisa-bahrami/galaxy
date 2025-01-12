@@ -13,13 +13,13 @@
 }
 
 .parallax-venus-2 {
-  background-image: url("../../../image/venus/venus2.jpg");
-}
-
-.parallax-venus-3 {
   background-image: url("../../../image/venus/venus3.webp");
 }
 
+.parallax-venus-3 {
+  background-image: url("../../../image/venus/venus2.jpg");
+}
+
 .parallax-venus-4 {
-  background-image: url("../../../image/venus/venus4.jpg");
+  background-image: url("../../../image/venus/venus4.webp");
 }

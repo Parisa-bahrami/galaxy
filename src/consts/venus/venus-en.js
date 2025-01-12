@@ -15,6 +15,7 @@ export const venus = {
       `,
     appearanceTitle: "Appearance of Venus",
     appearanceDescription: `
-      Venus appears as a yellowish-green object from space. These colors represent its sulfuric acid-rich surface and atmospheric pollution.
+The planet Venus appears from space as a white-yellowish object. This color is due to the thick, dense clouds that cover Venus's surface. These clouds are primarily composed of sulfuric acid (sulfates) and uniformly reflect sunlight, causing Venus to appear white with a yellowish tint.
+Venus has a very dense and toxic atmosphere, mostly composed of carbon dioxide with small amounts of nitrogen and other gases. This atmosphere creates an intense greenhouse effect, making Venus's surface one of the hottest places in the solar system.
     `,
   };

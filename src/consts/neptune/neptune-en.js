@@ -20,9 +20,14 @@ Neptune appears blue from space, indicating its high-pressure atmosphere rich in
     atmosphereDescription: `
       Neptune's atmosphere is composed of hydrogen, helium, and a small amount of methane. This atmosphere has large storms known as the Great Dark Spot.
     `,
+    ringsTitle: "Rings of Neptune",
+    ringsDescription: `
+  
+Neptune's rings are also faint and dark, with a discontinuous structure. They are made up of dust particles and organic materials, influenced by the gravity of Neptune's moons. Neptune's rings were first discovered in 1989 by the Voyager 2 spacecraft. These rings include several bright arcs that remain stable due to the gravity of Neptune's moons, particularly the moon Galatea.
+    `,
     moonsTitle: "Moons of Neptune",
     moonsDescription: `
-Number of moons: 16
+Neptune has 16 moons.
 Triton is Neptune's largest moon and is unique for its retrograde orbit (opposite to Neptune's rotation). Triton is likely a captured Kuiper Belt object.
 `,
   };

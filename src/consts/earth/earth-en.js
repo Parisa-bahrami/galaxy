@@ -24,10 +24,9 @@ export const earth = {
       
     moonsTitle: "Moons of Earth",
     moonsDescription: `
-Number of moons: 1
 The Moon is Earth's only natural satellite and plays a crucial role in stabilizing Earth's climate and creating tides.
     `,
-  conclusionTitle: "Conclusion",
+  conclusionTitle: "The future of Earth",
   conclusionDescription: `
       Earth is known as a unique planet in the solar system that provides suitable conditions for life.
 Humanity is currently grappling with global climate change, which has led to stronger storms, longer droughts, and larger natural disasters. Over its 4.5-billion-year history, Earth has experienced many climatic shifts, but human activities have accelerated these changes by intensifying the greenhouse effect. These transformations threaten ecosystems worldwide and endanger the survival of many species, including humans. Scientists predict that in 250 million years, Earth will become too hot for land mammals to survive. In addition to climate change, earthquakes, volcanic eruptions, and asteroid impacts pose significant threats to life. However, despite past mass extinctions, life has always persisted. In the distant future, the depletion of atmospheric oxygen and the death of the Sun as a red giant will ultimately eradicate all life.

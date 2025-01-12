@@ -15,4 +15,7 @@ export const home = {
   uranusDescription: `Uranus is the seventh planet from the Sun and is unique for its sideways rotation. It has an atmosphere rich in hydrogen and helium.    `,
   venusTitle: "Venus",
   venusDescription: `Venus is the second planet from the Sun and has a thick atmosphere that causes a severe greenhouse effect. Its surface is extremely hot.    `,
+  nameTitle: "Parisa Bahrami",
+  nameDescription: `11th grade from Hamadan province`,
 };
+
