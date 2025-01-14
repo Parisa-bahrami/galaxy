@@ -24,13 +24,6 @@ export default {
       night: "./textures/earth/night.webp",
       specularClouds: "./textures/earth/specularClouds.webp",
     },
-    moon: {
-      radius: 0.027,
-      distance: 0.3,
-      orbitSpeed: 0.5,
-      rotationSpeed: 1,
-      texture: "./textures/moon.webp",
-    },
   },
   mars: {
     name: "mars",
