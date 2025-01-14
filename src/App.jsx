@@ -1,4 +1,4 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom"; // Use createHashRouter instead
 import "./App.css";
 
 import Layout from "./component/layout/Layout";
@@ -13,7 +13,7 @@ import Earth from "./component/pages/earth/Earth";
 import Home from "./component/pages/home/Home";
 
 function App() {
-  const router = createBrowserRouter(
+  const router = createHashRouter(
     [
       {
         path: "/",
@@ -57,10 +57,7 @@ function App() {
           },
         ],
       },
-    ],
-    {
-      basename: "/galaxy", // Add the basename
-    }
+    ]
   );
 
   return (
