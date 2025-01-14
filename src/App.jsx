@@ -1,6 +1,4 @@
-import { RouterProvider } from "react-router-dom";
-import { createBrowserRouter } from "react-router-dom";
-
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./App.css";
 
 import Layout from "./component/layout/Layout";
@@ -15,52 +13,55 @@ import Earth from "./component/pages/earth/Earth";
 import Home from "./component/pages/home/Home";
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createBrowserRouter(
+    [
+      {
+        path: "/",
+        element: <Layout />,
+        children: [
+          {
+            path: "/",
+            element: <Home />,
+          },
+          {
+            path: "/Mercury",
+            element: <Mercury />,
+          },
+          {
+            path: "/Venus",
+            element: <Venus />,
+          },
+          {
+            path: "/Earth",
+            element: <Earth />,
+          },
+          {
+            path: "/Mars",
+            element: <Mars />,
+          },
+          {
+            path: "/Jupiter",
+            element: <Jupiter />,
+          },
+          {
+            path: "/Saturn",
+            element: <Saturn />,
+          },
+          {
+            path: "/Uranus",
+            element: <Uranus />,
+          },
+          {
+            path: "/Neptune",
+            element: <Neptune />,
+          },
+        ],
+      },
+    ],
     {
-      path: "/",
-      element: <Layout />,
-      children: [
-        {
-          path: "/",
-          element: <Home />,
-        },
-        {
-          path: "/Mercury",
-          element: <Mercury />,
-        },
-        {
-          path: "/Venus",
-          element: <Venus />,
-        },
-        {
-          path: "/Earth",
-          element: <Earth />,
-        },
-        {
-          path: "/Mars",
-          element: <Mars />,
-        },
-        {
-          path: "/Jupiter",
-          element: <Jupiter />,
-        },
-        {
-          path: "/Saturn",
-          element: <Saturn />,
-        },
-
-        {
-          path: "/Uranus",
-          element: <Uranus />,
-        },
-
-        {
-          path: "/Neptune",
-          element: <Neptune />,
-        },
-      ],
-    },
-  ]);
+      basename: "/galaxy1", // Add the basename
+    }
+  );
 
   return (
     <>
