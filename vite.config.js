@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base:'./galaxy1/' // Repository name in github
+  base:'/galaxy' // Repository name in github
 })

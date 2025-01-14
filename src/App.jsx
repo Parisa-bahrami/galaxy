@@ -59,7 +59,7 @@ function App() {
       },
     ],
     {
-      basename: "/galaxy1", // Add the basename
+      basename: "/galaxy", // Add the basename
     }
   );
 
