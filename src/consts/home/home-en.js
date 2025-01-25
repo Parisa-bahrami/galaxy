@@ -16,6 +16,6 @@ export const home = {
   venusTitle: "Venus",
   venusDescription: `Venus is the second planet from the Sun and has a thick atmosphere that causes a severe greenhouse effect. Its surface is extremely hot.    `,
   nameTitle: "Parisa Bahrami",
-  nameDescription: `11th grade from Hamadan province`,
+  nameDescription: `11th grade from Hamedan province`,
 };
 

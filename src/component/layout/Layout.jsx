@@ -40,7 +40,7 @@ const Layout = () => {
         <div
           ref={scrollContainerRef}
           className={cn(
-            "w-full max-h-[calc(100dvh-128px)] md:max-h-dvh overflow-y-auto md:pb-10",
+            "w-full max-h-[calc(100dvh-128px)] md:max-h-dvh overflow-y-auto no-scrollbar md:pb-10",
             isHome && "max-h-[calc(100dvh-65px)]"
           )}
         >

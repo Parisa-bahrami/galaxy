@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unknown-property */
 import * as THREE from "three";
 import { useTexture } from "@react-three/drei";
 import { useMemo } from "react";

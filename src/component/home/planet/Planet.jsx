@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 /* eslint-disable react/prop-types */
 import { useRef, Suspense } from "react";
 import * as THREE from "three";
