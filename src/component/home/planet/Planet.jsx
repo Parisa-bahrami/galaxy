@@ -7,6 +7,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 
 import Ring from "./Ring";
 import planets from "../../../consts/planets";
+import { isMobile } from "../../../utils/isMobile";
 
 const sphereGeometry = new THREE.SphereGeometry(1, 64, 64);
 
@@ -31,7 +32,6 @@ const PlanetBase = ({ name }) => {
   const scale = name === "saturn" ? [68, 68, 68] : [100, 100, 100];
 
   return (
-    
     <group ref={planetRef}>
       {/* Planet mesh */}
       <mesh geometry={sphereGeometry} scale={scale}>
@@ -51,24 +51,40 @@ const PlanetBase = ({ name }) => {
 };
 
 const Planet = ({ name }) => {
+  const planetData = planets[name];
+  const isMobileDevice = isMobile();
+
   return (
-    <Canvas camera={{ position: [0, 0, 400], fov: 45 }}>
-      <Suspense fallback={null}>
-        {/* Ambient light for overall illumination */}
-        <ambientLight intensity={0.4} />
+    <>
+      {isMobileDevice ? (
+        <img
+          src={planetData?.image}
+          alt={planetData?.name}
+          style={{ width: "100%", height: "auto" }}
+        />
+      ) : (
+        <Canvas camera={{ position: [0, 0, 400], fov: 45 }}>
+          <Suspense fallback={null}>
+            {/* Ambient light for overall illumination */}
+            <ambientLight intensity={0.4} />
 
-        {/* Main directional light (sun) */}
-        <directionalLight position={[5, 0, 3]} intensity={2} color="#fff" />
+            {/* Main directional light (sun) */}
+            <directionalLight position={[5, 0, 3]} intensity={2} color="#fff" />
 
-        {/* Subtle fill light from the opposite side */}
-        <directionalLight position={[-5, 0, 3]} intensity={0.1} color="#fff" />
-        {/* <pointLight position={[-5, 0, 0]} intensity={1} color="#CCF" /> */}
+            {/* Subtle fill light from the opposite side */}
+            <directionalLight
+              position={[-5, 0, 3]}
+              intensity={0.1}
+              color="#fff"
+            />
+            {/* <pointLight position={[-5, 0, 0]} intensity={1} color="#CCF" /> */}
 
-        {/* Render the planet */}
-        <PlanetBase name={name} />
-      </Suspense>
-    </Canvas>
- 
+            {/* Render the planet */}
+            <PlanetBase name={name} />
+          </Suspense>
+        </Canvas>
+      )}
+    </>
   );
 };
 

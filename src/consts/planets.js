@@ -5,6 +5,7 @@ export default {
     orbitSpeed: 1.6,
     rotationSpeed: 0.016,
     texture: "./textures/mercury.webp",
+    image: "./images/mercury.png",
   },
   venus: {
     name: "venus",
@@ -12,6 +13,7 @@ export default {
     orbitSpeed: 1.17,
     rotationSpeed: 0.004,
     texture: "./textures/venus/venus.webp",
+    image: "./images/venus.png",
     atmosphereTexture: "./textures/venus/venus_atmosphere.webp",
   },
   earth: {
@@ -22,6 +24,7 @@ export default {
     textures: {
       day: "./textures/earth/day.webp",
     },
+    image: "./images/earth.png",
   },
   mars: {
     name: "mars",
@@ -29,6 +32,7 @@ export default {
     orbitSpeed: 0.8,
     rotationSpeed: 1.03,
     texture: "./textures/mars.webp",
+    image: "./images/mars.png",
   },
   jupiter: {
     name: "jupiter",
@@ -36,6 +40,7 @@ export default {
     orbitSpeed: 0.43,
     rotationSpeed: 2.4,
     texture: "./textures/jupiter.webp",
+    image: "./images/jupiter.png",
   },
   saturn: {
     name: "saturn",
@@ -43,6 +48,7 @@ export default {
     orbitSpeed: 0.32,
     rotationSpeed: 2.3,
     texture: "./textures/saturn/saturn.webp",
+    image: "./images/saturn.png",
     hasRings: true,
     ringTexture: "./textures/saturn/saturn_ring.png",
   },
@@ -52,6 +58,7 @@ export default {
     orbitSpeed: 0.23,
     rotationSpeed: 1.4,
     texture: "./textures/uranus.webp",
+    image: "./images/uranus.png",
   },
   neptune: {
     name: "neptune",
@@ -59,5 +66,6 @@ export default {
     orbitSpeed: 0.18,
     rotationSpeed: 1.5,
     texture: "./textures/neptune.webp",
+    image: "./images/neptune.png",
   },
 };
